@@ -62,19 +62,3 @@ function aplicarCupon() {
     const resultCupon = document.getElementById('ResultCupon');
     resultCupon.innerText = `Tu total a pagar es $ ${compraFinal}`;
 }
-
-/**
- * .color1 {color: #b0c5c3;}
-.color2 {color: #cccac3;}
-.color3 {color: #3f4d55;}
-.color4 {color: #938594;}
-.color5 {color: #daddde;}
- */
-
-/**
- * .color1 {color: #000000;}
-.color2 {color: #21232c;}
-.color3 {color: #515466;}
-.color4 {color: #898ca8;}
-.color5 {color: #c7cbf1;}
- */

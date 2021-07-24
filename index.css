@@ -41,7 +41,7 @@ li {
     margin: 40px;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 600px) {
     body {
         grid-template-columns: repeat(5, 72px);
         grid-template-rows: repeat(10, 74px);
