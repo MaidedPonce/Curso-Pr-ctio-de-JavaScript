@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(25, 51.75px);
+    grid-template-rows: repeat(13, 48.2px);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header {
+    background: #0A1C22;
+    color: white;
+    display: grid;
+    grid-column: 1/26;
+    grid-row: 1/4;
+    font-size: 15px;
+    padding: 0 25px
+}
+
+.header h1 {
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.section {
+    color: white;
+    display: grid;
+    grid-column: 3 / 14;
+    grid-row: 5 / 13;
+    background: #15343c;
+    border: 5px solid #4eaeb4;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.section2 {
+    display: grid;
+    grid-column: 16/22;
+    grid-row: 5/13;
+    margin: auto;
+    font-size: 20px;
+}
+
+.section2 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2>p {
+    color: #367c85;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+.form input {
+    margin: 10px 0;
+}
+
+.form button {
+    background: #15343c;
+    cursor: pointer;
+    color: white;
+    border: 2px solid #4eaeb4;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.section__let p, b {
+    font-size: 20px;
+}
+
+.section__let {
+    margin: 30px 0 0 0;
+}
+
+input {
+    border: 2px solid #4eaeb4;
+    border-radius: 5px;
+    height: 25px;
+    margin: 10px 0 0;
+}
+

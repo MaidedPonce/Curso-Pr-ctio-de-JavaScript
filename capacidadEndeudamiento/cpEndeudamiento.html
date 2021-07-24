@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cpEndeudamiento.css">
+    <title>Capacidad de Endeudamiento</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Capacidad de Endeudamiento</h1>
+    </header>
+
+    <section class="section">
+        <div class="section__let">
+            <h1>¿Qué es la capacidad de endeudamiento</h1>
+            <p>La capacidad de endeudamiento es el dinero máximo por el que puedes endeudarte para poder pagarlo</p>
+            <p>Este tienen un monto mínimo del 30% y un máximo del 40% de los ingresos netos mensuales</p>
+            <b>Si llegas a exceder el 40% estarías en serios problemas con tus deudas</b>
+            <p>Calcula aquí tu monto mínimo o máximo de endeudamiento según tu ingreso neto:</p>
+        </div>
+    </section>
+
+    <section class="section2">
+        <form class="form">
+            <label for="inputIngresos">Ingresa tus ingresos totales:</label>
+            <input id="inputIngresos" type="number" placeholder="Ingresos totales" />
+
+            <label for="inputGastos">Ingresa tus gastos totales:</label>
+            <input id="inputGastos" type="number" placeholder="Gastos totales" />
+
+            <label for="minMax">Ingresa si quieres el mínimo o máximo (30 o 40)</label>
+            <input id="minMax" type="text" />
+
+            <button type="button" onclick="cpEndeudamiento()">Calcular capacidad de endeudamiento</button>
+        </form>
+        <p id="result"></p>
+    </section>
+    <script src="./cpEndeudamiento.js"></script>
+</body>
+
+</html>
