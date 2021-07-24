@@ -103,7 +103,7 @@ th {
     text-align: -moz-left;
 }
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 1024px) {
     body {
         grid-template-columns: repeat(5, 72px);
         grid-template-rows: repeat(10, 74px);
