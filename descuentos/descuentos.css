@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(25, 51.75px);
+    grid-template-rows: repeat(13, 48.2px);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.header {
+    background: #000000;
+    color: white;
+    display: grid;
+    grid-column: 1/26;
+    grid-row: 1/4;
+    font-size: 15px;
+    padding: 0 25px
+}
+
+.section {
+    display: grid;
+    grid-column: 3 / 14;
+    grid-row: 5 / 13;
+    background: #898ca8;
+    border: 5px solid #21232c;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.section2 {
+    display: grid;
+    grid-column: 16/22;
+    grid-row: 6/12;
+}
+
+.price__form--sec,
+.price__form--sec2 {
+    margin: auto;
+    width: 200px;
+}
+
+.price__form--sec {
+    margin: 20px;
+    height: 250px;
+}
+
+.price__form--sec2 {
+    display: grid;
+    background: #c7cbf1;
+    grid-column: 7/11;
+    grid-row: 1/6;
+    height: 240px;
+    width: 210px;
+    border-radius: 10px;
+}
+
+.price__form--sec2 label {
+    margin: 0 5px;
+}
+.price__form {
+    display: grid;
+    grid-template-columns: repeat(10, 51.75px);
+    width: 540px;
+    height: 300px;
+    grid-template-rows: repeat(6, 48.2px);
+}
+
+input {
+    border: 0;
+    border-radius: 25px;
+    height: 25px;
+    margin: 10px 0 0;
+}
+
+button {
+    background: #515466;
+    height: 30px;
+    margin: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    color: white;
+    border: 2px solid #c7cbf1;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+.section2 h3 {
+    height: 50px;
+}
+
+th {
+    text-align: -moz-left;
+}

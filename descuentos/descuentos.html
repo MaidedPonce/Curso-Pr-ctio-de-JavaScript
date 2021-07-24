@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descuentos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <title>Porcentajes y descuentos | Curso Práctico de JavaScript</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+            Porcentajes y descuentos
+        </h1>
+        <p>Este es el segundo taller del Curso Práctico de JavaScript</p>
+    </header>
+    <section class="section">
+        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+        <form class="price__form">
+            <div class="price__form--sec">
+                <label for="InputPrince">Escribe el precio de tu producto</label>
+                <input id="InputPrice" type="number" />
+
+                <label for="InputDiscount">Escribe el descuento</label>
+                <input id="InputDiscount" type="number" />
+
+                <button type="button" onclick="onClickButtonPriceDiscount()">Calcular el precio con descuento</button>
+                <p id="ResultP"></p>
+            </div>
+
+            <div class="price__form--sec2">
+                <label for="InputCupon">¿¡Tienes un cupón!? Escribe el precio de tu producto y el nombre de tu
+                    cupón</label>
+                <input id="InputCupon" type="text" />
+                <button type="button" onclick="aplicarCupon()">¡Comprar con cupón!</button>
+                <p id="ResultCupon"></p>
+            </div>
+        </form>
+    </section>
+    <section class="section2">
+        <h2>¡Porque eres especial!</h2>
+        <h3>¡Tenemos grandes descuentos para ti!</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Nombre del cupón
+                    </th>
+                    <th>
+                        Descuento
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        Robi
+                    </td>
+                    <td>
+                        25%
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Papita
+                    </td>
+                    <td>
+                        50%
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Rabi
+                    </td>
+                    <td>
+                        60%
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="./descuentos.js"></script>
+</body>
+
+</html>
