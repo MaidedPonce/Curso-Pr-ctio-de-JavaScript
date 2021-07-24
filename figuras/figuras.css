@@ -114,3 +114,16 @@ button {
     font-size: 10px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600) {
+    body {
+        grid-template-columns: repeat(10, 51.75px);
+        grid-template-rows: repeat(10, 48.2px);
+        font-size: 10px;
+    }
+
+    .header {
+        grid-column: 1/10;
+        grid-row: 1/4;
+    }
+}
