@@ -63,6 +63,7 @@ p {
 .price__form--sec2 label {
     margin: 0 5px;
 }
+
 .price__form {
     display: grid;
     grid-template-columns: repeat(10, 51.75px);
@@ -101,15 +102,60 @@ input[type="number"] {
 th {
     text-align: -moz-left;
 }
-@media only screen and (max-width: 600) {
+
+@media only screen and (max-width: 360px) {
     body {
-        grid-template-columns: repeat(10, 51.75px);
-        grid-template-rows: repeat(10, 48.2px);
-        font-size: 10px;
+        grid-template-columns: repeat(5, 72px);
+        grid-template-rows: repeat(10, 74px);
     }
 
     .header {
-        grid-column: 1/10;
-        grid-row: 1/4;
+        grid-column: 1/6;
+        grid-row: 1/3;
+    }
+
+    .section {
+        grid-column: 1 / 6;
+        grid-row: 3 / 8;
+    }
+
+    .price__form--sec {
+        display: flex;
+        flex-direction: column;
+        height: 180px;
+        width: 180px;
+    }
+
+    input {
+        width: 60px;
+    }
+
+    .price__form--sec2 {
+        display: grid;
+        font-size: 10px;
+        grid-column: 4/6;
+        height: 140px;
+        width: 110px;
+    }
+
+    .price__form--sec2 input {
+        height: 15px;
+        margin: 10px 0 0 10px;
+    }
+
+    .price__form {
+        display: grid;
+        grid-template-columns: repeat(5, 66px);
+        width: 330px;
+        height: 200px;
+        grid-template-rows: repeat(4, 50px);
+    }
+
+    .section2 {
+        display: grid;
+        grid-column: 1/6;
+        grid-row: 8/11;
+        width: 360px;
+        height: 190px;
     }
 }

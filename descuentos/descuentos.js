@@ -43,7 +43,7 @@ function cupon(precio, nombreCupon) {
     ]
     const pucharse = cupones.find((item) => item.cupon == nombreCupon);
     if(!pucharse) {
-        return null;
+        return 'Ese cupon no existe';
     }
     const money = pucharse.descuento;
     const final = calcularPrecioConDescuento(precio, money);
@@ -60,7 +60,7 @@ function aplicarCupon() {
     const compraFinal = cupon(priceValue, valueCupon);
 
     const resultCupon = document.getElementById('ResultCupon');
-    resultCupon.innerText = `Tu total a pagar es ${compraFinal}`;
+    resultCupon.innerText = `Tu total a pagar es $ ${compraFinal}`;
 }
 
 /**

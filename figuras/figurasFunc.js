@@ -46,10 +46,9 @@ function calcularPerimetroCuadrado() {
     if(!value) {
         return null;
     }
-    const element = document.createElement('p');
-    element.innerText = perimetro;
+
     const read = document.getElementById('containerCuadrado');
-    read.appendChild(element)
+    read.innerText = perimetro;
 }
 
 function calcularAreaCuadrado(){
@@ -60,12 +59,9 @@ function calcularAreaCuadrado(){
     }
 
     const area = areaCuadrado(value);
-    
-    const element = document.createElement('p');
-    element.innerHTML = (area);
 
     const read = document.getElementById('containerCuadrado');
-    read.appendChild(element)
+    read.innerText = area;
 }
 
 function calcularperimetroTriangulo() {
@@ -85,11 +81,9 @@ function calcularperimetroTriangulo() {
         return null;
     }
     
-    const element = document.createElement('p');
-    element.innerHTML = perimetro;
 
     const read = document.getElementById('containerTriangulo');
-    read.appendChild(element);
+    read.innerText = perimetro;
 }
 
 function calcularAreaTriangulo() {
@@ -105,11 +99,8 @@ function calcularAreaTriangulo() {
         return null;
     }
 
-    const element = document.createElement('p');
-    element.innerHTML = area;
-
     const read = document.getElementById('containerTriangulo');
-    read.appendChild(element)
+    read.innerText = area;
 }
 
 function calcularAreaCirculo() {
@@ -121,11 +112,9 @@ function calcularAreaCirculo() {
     if(!value) {
         return null;
     }
-    const element = document.createElement('p');
-    element.innerHTML = area;
 
     const read = document.getElementById('containerCirculo');
-    read.appendChild(element)
+    read.innerText = area;
 }
 
 function calcularPerimetroCirculo() {
@@ -137,11 +126,9 @@ function calcularPerimetroCirculo() {
     if(!value) {
         return null;
     }
-    const element = document.createElement('p');
-    element.innerHTML = perimetro;
 
     const read = document.getElementById('containerCirculo');
-    read.appendChild(element)
+    read.innerText = perimetro;
 }
 
 function calcularAlturaIsoceles() {
@@ -156,10 +143,9 @@ function calcularAlturaIsoceles() {
     if(!value || !value2) {
         return null;
     }
-    const element = document.createElement('p');
-    element.innerHTML = altura;
+
 
     const read = document.getElementById('containerIsoceles');
-    read.appendChild(element)
+    read.innerText = altura;
 }
 
