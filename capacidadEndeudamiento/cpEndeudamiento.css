@@ -152,12 +152,13 @@ input {
     }
 
     .section {
-        grid-column: 2 / 10;
+        grid-column: 2 / 7;
         grid-row: 4 / 8;
+        padding: 5px;
     }
 
     .section2 {
-        grid-column: 2/8;
-        grid-row: 8/10;
+        grid-column: 8/8;
+        grid-row: 2/10;
     }
 }
