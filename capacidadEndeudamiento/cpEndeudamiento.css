@@ -106,14 +106,14 @@ input {
 
     .section {
         display: grid;
-        font-size: 10px;
+        font-size: 15px;
         grid-column: 1 / 6;
         grid-row: 5 / 7;
     }
 
     .section__let p,
     b {
-        font-size: 9px;
+        font-size: 15px;
     }
 
     .section__let {
@@ -124,7 +124,7 @@ input {
         display: grid;
         grid-column: 1/6;
         grid-row: 7/10;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     input {
@@ -135,7 +135,7 @@ input {
     .form button {
         width: 200px;
         height: 25px;
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
