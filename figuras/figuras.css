@@ -114,7 +114,7 @@ button {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1080px) {
     body {
         grid-template-columns: repeat(5, 72px);
         grid-template-rows: repeat(10, 74px);
